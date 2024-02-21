@@ -21,6 +21,7 @@ app.set('view engine','ejs');
 app.use(express.urlencoded({extended : true}))
 app.use(methodOverride('_method'))
 
+
 app.get('/products',async (req,res) => {
     const products = await Product.find({})
     res.render('products/index',{products});

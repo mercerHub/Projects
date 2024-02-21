@@ -17,15 +17,15 @@ const p = new Product({
 })
 
 const dummyProducts = [
-    { name: 'Apple', price: 1.99, category: 'fruit' },
-    { name: 'Broccoli', price: 2.49, category: 'vegetable' },
-    { name: 'Milk', price: 3.99, category: 'dairy' },
-    { name: 'Banana', price: 0.99, category: 'fruit' },
-    { name: 'Carrot', price: 1.29, category: 'vegetable' },
-    { name: 'Cheese', price: 5.49, category: 'dairy' },
-    { name: 'Orange', price: 1.49, category: 'fruit' },
-    { name: 'Lettuce', price: 1.79, category: 'vegetable' },
-    { name: 'Yogurt', price: 2.99, category: 'dairy' }
+    { name: 'Apple', price: 1.99, category:'fruit' },
+    { name: 'Broccoli', price: 2.49,category:'vegetable' },
+    { name: 'Milk', price: 3.99, category:'dairy' },
+    { name: 'Banana', price: 0.99, category:'fruit' },
+    { name: 'Carrot', price: 1.29, category:'vegetable' },
+    { name: 'Cheese', price: 5.49, category:'dairy' },
+    { name: 'Orange', price: 1.49, category:'fruit' },
+    { name: 'Lettuce', price: 1.79, category:'vegetable' },
+    { name: 'Yogurt', price: 2.99, category:'dairy' }
 ];
 
 Product.insertMany(dummyProducts)
